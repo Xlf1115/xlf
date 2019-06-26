@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/ranking/ranking",
+    "pages/ranlingdata/rankingdata",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": true,
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#cf758c",
+    "list": [
+      {
+        "text": "首页",
+        "iconPath": "image/icon1.png",
+        "selectedIconPath": "image/selectedicon1.png",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "关注",
+        "iconPath": "image/icon2.png",
+        "selectedIconPath": "image/selectedicon2.png",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "排行",
+        "iconPath": "image/icon3.png",
+        "selectedIconPath": "image/selectedicon3.png",
+        "pagePath": "pages/ranking/ranking"
+      },
+      {
+        "text": "我的",
+        "iconPath": "image/icon4.png",
+        "selectedIconPath": "image/selectedicon4.png",
+        "pagePath": "pages/mine/mine"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
